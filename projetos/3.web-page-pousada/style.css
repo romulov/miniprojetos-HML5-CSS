@@ -1,0 +1,179 @@
+*{
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #F5F6A2;
+    background-size: cover;
+    height: 60px;
+    color: #5e5f0a;
+    position: sticky;
+}
+header h1{
+    text-transform: uppercase;
+    display: inline-block;
+    position: absolute;
+    padding: 10px 0;
+    margin-left: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 5px rgba(124, 126, 21, 0.39);
+}
+header nav{
+    display: inline-block;
+    position: absolute;
+    padding: 20px 0;
+    right: 0;
+    font-weight: bold;
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 10px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 20px rgba(103, 105, 25, 0.37);
+}
+header li{
+    font-size: bold;
+    margin: 0 20px;
+}
+header a{
+    color: #5e5f0a;
+    text-decoration: none;
+    cursor: pointer;
+}
+header a:hover{
+    color: black;
+    text-shadow: 1px 1px 20px rgba(94, 94, 77, 0.925);
+}
+
+
+.about{
+    padding: 20px;
+    background-color: #e0e0d6;
+    text-align: center;
+}
+.content{
+    display: inline-block;
+    width: 1200px;
+    background-color: #5e5f0a;
+    overflow: hidden;
+    padding: 20px 40px;
+}
+.content img{
+    float: right;
+    border-radius: 20px;
+}
+.content h2{
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: 4px;
+    max-width: 600px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+.content p{
+    max-width: 800px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 550;
+    text-align: left;
+    text-decoration: underline #F5F6A2;
+
+}
+
+
+
+
+
+
+.places{
+    background-color: #f2f79e;
+    padding: 20px;
+    position: relative;
+    height: 600px;
+}
+.ftpousada{
+    display: inline-block;
+    background-color: #f2f79e;
+    width: 1200px;
+    position: absolute;
+    z-index: 2;
+    border-radius: 20px;
+    transform: translate(5%);
+    text-align: center;
+}
+
+.ftsp{
+    height: 400px; 
+    border-radius: 10px; box-shadow: 2px 2px 5px black;
+}
+.ftsp1{
+    display: inline-block;
+    margin: 40px;
+}
+.ftpousada h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.ftsp2{
+    display: inline-block;
+    margin: 20px;
+}
+.ftsp3{
+    display: inline-block;
+    margin: 20px;
+}
+.ftpousada:hover{
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.infpousada{
+    display: inline-block;
+    background-color:#f2f79e;
+    z-index: 1;
+    padding: 30px 0;
+    width: 1200px;
+    height: 550px;
+    border-radius: 5px;
+    position: absolute;
+    transform: translate(5%);
+    text-align: center;
+}
+.ftinf{
+    height: 200px;
+    margin-top: 30px;
+    border-radius: 10px; box-shadow: 2px 2px 5px black;
+}
+
+.inf{
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    position: absolute;
+    top: 0;
+}
+.inf h1{
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.inf p{
+    font-size: 25px;
+    margin-bottom: 40px;
+   
+}
+.pousada1{
+    left: 20px;
+}
+.pousada2{
+    transform: translateX(-50%);
+
+}
+.pousada3{
+    right: 20px;
+}
